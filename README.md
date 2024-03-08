@@ -1,7 +1,7 @@
 # IOS-project2
 Semaphores
 
-Process synchronization (Post Office)
+Process synchronization (Post Office) <br>
 Project is inspired by book from Allen B. Downey: The Little Book of Semaphores (The barbershop
 problem
 
@@ -9,11 +9,11 @@ problem
 
 $ ./proj2 N_CUS N_OFF T_CUS T_OFF F
 
-N_CUS - Number of customers
-N_OFF - Number of officers
+N_CUS - Number of customers <br>
+N_OFF - Number of officers <br>
 T_CUS - The maximum time in milliseconds that a customer waits after its creation before entering the
-mail (eventually leaves with not received). 0<=T_CUS<=10000
-T_OFF - Maximum length of a officer break in milliseconds. 0<=T_OFF<=100
+mail (eventually leaves with not received). 0<=T_CUS<=10000 <br>
+T_OFF - Maximum length of a officer break in milliseconds. 0<=T_OFF<=100 <br>
 F - Maximum time in milliseconds after which mail is closed for new arrivals.
 0<=F<=10000
 
